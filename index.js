@@ -8,6 +8,7 @@ const path = require('path');
 /* eslint-disable */
 try {
   const config = require(path.join(__dirname, './configs/main.js'));
+  
   const logger = new Logger(config);
   const threads = new Threads(logger, config).setupThreads();
 

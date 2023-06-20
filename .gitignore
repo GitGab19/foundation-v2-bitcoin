@@ -4,7 +4,7 @@ node_modules/
 .DS_Store
 verthash.dat
 
-configs/*
+#configs/*
 !configs/main.js
 !configs/example.js
 certificates/*
